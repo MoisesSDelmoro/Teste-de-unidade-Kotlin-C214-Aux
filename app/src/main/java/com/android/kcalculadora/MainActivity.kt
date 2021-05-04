@@ -22,6 +22,8 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+
+
     fun positionButton(view: View) = when (view.id) {
         R.id.btn0 -> digite("0")
         R.id.btn1 -> digite("1")
@@ -42,6 +44,19 @@ class MainActivity : AppCompatActivity() {
         R.id.btnIgual -> calcular()
         R.id.btnDeletar -> deletar(1)
         else -> Log.d("nada", "Algo diferente")
+    }
+
+    fun soma(i: Double, i1: Double): Double {
+        return i+i1
+    }
+    fun sub(i: Double, i1: Double): Double {
+        return i-i1
+    }
+    fun multi(i: Double, i1: Double): Double {
+        return i*i1
+    }
+    fun div(i: Double, i1: Double): Double {
+        return i/i1
     }
 
     fun digite(s: String) {

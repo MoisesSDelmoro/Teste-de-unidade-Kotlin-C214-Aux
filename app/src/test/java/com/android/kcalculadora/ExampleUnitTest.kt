@@ -1,9 +1,10 @@
 package com.android.kcalculadora
 
+
+
 import org.junit.Test
 
 import org.junit.Assert.*
-import org.junit.Before
 
 /**
  * Example local unit test, which will execute on the development machine (host).
@@ -11,20 +12,40 @@ import org.junit.Before
  * See [testing documentation](http://d.android.com/tools/testing).
  */
 class ExampleUnitTest {
-
-    private val FAKE_STRING = "HELLO_WORLD"
-
-    @Before
-    fun CheckCamp(){
-        assertTrue(true)
+    @Test
+    fun somaTest() {
+         val res = soma(2.0, 3.0)
+         assertEquals(5.0, res, 0.0)
+    }
+    @Test
+    fun subTest() {
+        val res = sub(2.0, 3.0)
+        assertEquals(-1.0, res, 0.0)
     }
 
     @Test
-    fun addition_isCorrect() {
-        assertEquals(4, 2 + 2)
+    fun multiTest() {
+        val res = multi(2.0, 3.0)
+        assertEquals(6.0, res, 0.0)
     }
     @Test
-    fun subtraction_noCorrect(){
-        assertNotEquals(6,10-5)
+    fun divTest() {
+        val res = div(2.0, 3.0)
+        assertEquals(0.6667, res, 0.0001)
+    }
+
+
+
+    private fun soma(i: Double, i1: Double): Double {
+        return i+i1
+    }
+    private fun sub(i: Double, i1: Double): Double {
+        return i-i1
+    }
+    private fun multi(i: Double, i1: Double): Double {
+        return i*i1
+    }
+    private fun div(i: Double, i1: Double): Double {
+        return i/i1
     }
 }
