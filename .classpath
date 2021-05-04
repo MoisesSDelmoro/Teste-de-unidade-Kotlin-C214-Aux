@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="app/build/generated/source/buildConfig/debug"/>
+	<classpathentry kind="lib" path="app/build/intermediates/app_classes/debug/classes.jar"/>
+	<classpathentry kind="lib" path="app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar"/>
+	<classpathentry kind="lib" path="app/build/intermediates/merged_java_res/debug/out.jar"/>
+	<classpathentry kind="lib" path="app/build/intermediates/project_dex_archive/debug/out/336ddb479483d19f7e227352f3c3552b4a0859bebf9c8f7ac8c8be483e2d469e_0.jar"/>
+	<classpathentry kind="lib" path="app/build/intermediates/project_dex_archive/debug/out/336ddb479483d19f7e227352f3c3552b4a0859bebf9c8f7ac8c8be483e2d469e_1.jar"/>
+	<classpathentry kind="lib" path="app/build/intermediates/project_dex_archive/debug/out/336ddb479483d19f7e227352f3c3552b4a0859bebf9c8f7ac8c8be483e2d469e_2.jar"/>
+	<classpathentry kind="lib" path="app/build/intermediates/project_dex_archive/debug/out/336ddb479483d19f7e227352f3c3552b4a0859bebf9c8f7ac8c8be483e2d469e_3.jar"/>
+	<classpathentry kind="lib" path="app/build/intermediates/project_dex_archive/debug/out/336ddb479483d19f7e227352f3c3552b4a0859bebf9c8f7ac8c8be483e2d469e_4.jar"/>
+	<classpathentry kind="lib" path="app/build/intermediates/project_dex_archive/debug/out/336ddb479483d19f7e227352f3c3552b4a0859bebf9c8f7ac8c8be483e2d469e_5.jar"/>
+	<classpathentry kind="output" path="app/build/intermediates/javac/debug/classes"/>
+</classpath>
