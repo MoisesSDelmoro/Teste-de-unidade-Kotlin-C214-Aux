@@ -8,10 +8,6 @@ import android.widget.EditText
 import net.objecthunter.exp4j.ExpressionBuilder
 
 class MainActivity : AppCompatActivity() {
-    fun HelloWord() {
-        println("Hello Word!")
-    }
-
     lateinit var editText: EditText
 
     var conta: String = ""
@@ -22,7 +18,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    fun positionButton(view: View) = when (view.id) {
+    fun positionButtom(view: View) = when (view.id) {
         R.id.btn0 -> digite("0")
         R.id.btn1 -> digite("1")
         R.id.btn2 -> digite("2")
@@ -47,22 +43,23 @@ class MainActivity : AppCompatActivity() {
     fun digite(s: String) {
         var auxS = s
         conta = editText.text.toString()
-        if (conta.isEmpty()) {
-            if (s == "+" || s == "-" || s == "/" || s == "*") {
+        if (conta.length == 0) {
+            if (s.equals("+") || s.equals("-") || s.equals("/") || s.equals("*")) {
                 auxS = ""
             } else {
                 conta += auxS
                 editText.append(conta)
             }
         } else {
-            if (s == "+" || s == "-" || s == "/" || s == "*") {
+
+            if (s.equals("+") || s.equals("-") || s.equals("/") || s.equals("*")) {
                 if (conta.length > 1) {
-                    var auxS2 = conta[conta.length - 2].toString()
+                    var auxS2 = conta.get(conta.length - 2).toString()
                     auxS = verificarOperacao(auxS2, s)
                     conta += auxS
                     editText.setText(conta)
                 } else {
-                    conta += " $s "
+                    conta += " " + s + " "
                     editText.setText(conta)
                 }
             } else {
@@ -78,7 +75,44 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun calcular() {
-        if (editText.text.toString() != "") {
+        // Modo Difícil
+
+        /*var expression = mutableListOf<Char>()
+        for (i in conta.indices) {
+            var string: String = conta.get(i).toString()
+            if (string.equals("+") || string.equals("-") || string.equals("/") || string.equals("*")) {
+                expression.add(conta.get(i))
+            }
+        }
+        var separador: List<String> = conta.split("+", "-", "*", "/")
+        var array = separador.toMutableList()
+        var int = 0
+        try {
+            while (expression.size != 0) {
+                var numero1 = array.get(0).toDouble()
+                var numero2 = array.get(1).toDouble()
+                var operador = expression.get(0)
+                var total: Double = 0.0
+                total = executarOperacao(numero1, operador, numero2)
+
+                array.removeAt(0)
+                expression.removeAt(0)
+                if (int == 0) {
+                    array.removeAt(0)
+                    int++
+                }
+                array.add(0, total.toString())
+            }
+            editText.setText(array.get(0))
+            conta = array.get(0)
+        }catch (e :NumberFormatException){
+            editText.setText("0")
+            conta = "0"
+        }*/
+
+        //Modo mamão com açucar
+
+        if (!editText.text.toString().equals("")) {
             try {
                 val expression = ExpressionBuilder(editText.text.toString()).build()
                 val result: Double = expression.evaluate()
@@ -93,7 +127,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun deletar(int: Int) {
-        if (conta.isNotEmpty()) {
+        if (conta.length > 0) {
             conta = conta.substring(0, conta.length - int)
             editText.setText(conta)
         }
@@ -103,49 +137,60 @@ class MainActivity : AppCompatActivity() {
         var retorno: String = operacao
         if (aux == operacao) {
             retorno = ""
-        } else if (operacao == "+") {
-            if (aux == "-" || aux == "/" || aux == "*") {
-                retorno = "$operacao "
+        } else if (operacao.equals("+")) {
+            if (aux.equals("-") || aux.equals("/") || aux.equals("*")) {
+                retorno = operacao + " "
                 deletar(2)
             } else {
                 retorno = " + "
             }
-        } else if (operacao == "-") {
-            if (aux == "+" || aux == "/" || aux == "*") {
-                retorno = "$operacao "
+        } else if (operacao.equals("-")) {
+            if (aux.equals("+") || aux.equals("/") || aux.equals("*")) {
+                retorno = operacao + " "
                 deletar(2)
             } else {
                 retorno = " - "
             }
-        } else if (operacao == "/") {
-            if (aux == "+" || aux == "-" || aux == "*") {
-                retorno = "$operacao "
+        } else if (operacao.equals("/")) {
+            if (aux.equals("+") || aux.equals("-") || aux.equals("*")) {
+                retorno = operacao + " "
                 deletar(2)
             } else {
                 retorno = " / "
             }
-        } else if (operacao == "*") {
-            if (aux == "+" || aux == "/" || aux == "-") {
-                retorno = "$operacao "
+        } else if (operacao.equals("*")) {
+            if (aux.equals("+") || aux.equals("/") || aux.equals("-")) {
+                retorno = operacao + " "
                 deletar(2)
             } else {
                 retorno = " * "
             }
         } else {
-            if (operacao == "+") {
+            if (operacao.equals("+")) {
                 retorno = " + "
-            } else if (operacao == "-") {
+            } else if (operacao.equals("-")) {
                 retorno = " - "
-            } else if (operacao == "/") {
+            } else if (operacao.equals("/")) {
                 retorno = " / "
-            } else if (operacao == "*") {
+            } else if (operacao.equals("*")) {
                 retorno = " * "
             } else {
                 retorno = operacao
             }
         }
-        HelloWord()
         return retorno
-
     }
+    /*fun executarOperacao(numero1: Double, operador: Char, numero2: Double): Double {
+        var resultado: Double = 0.0
+            if (operador == '+') {
+                resultado = numero1 + numero2
+            } else if (operador == '-') {
+                resultado = numero1 - numero2
+            } else if (operador == '/') {
+                resultado = numero1 / numero2
+            } else if (operador == '*') {
+                resultado = numero1 * numero2
+            }
+        return resultado
+    }*/
 }
