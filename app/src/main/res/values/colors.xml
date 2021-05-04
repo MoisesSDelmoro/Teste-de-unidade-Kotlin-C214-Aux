@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
-    <color name="linha1">#CF27FF</color>
-    <color name="linha2">#EB63FF</color>
-    <color name="linha3">#FBA1FF</color>
-    <color name="linha4">#FCD0FF</color>
-    <color name="linha5">#FFFBEF</color>
+    <color name="colorPrimary">#2b45FF</color>
+    <color name="colorPrimaryDark">#14116A</color>
+    <color name="colorAccent">#4888FF</color>
+    <color name="linha1">#619DE5</color>
+    <color name="linha2">#619DE5</color>
+    <color name="linha3">#619DE5</color>
+    <color name="linha4">#619DE5</color>
+    <color name="linha5">#5389D4</color>
 </resources>

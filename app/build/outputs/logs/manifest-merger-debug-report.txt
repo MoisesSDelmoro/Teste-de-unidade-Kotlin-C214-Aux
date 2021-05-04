@@ -1,0 +1,157 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\moise\OneDrive\Documentos\Projetos1S21\Calculadora\Teste-de-unidade-Kotlin-C214\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\moise\OneDrive\Documentos\Projetos1S21\Calculadora\Teste-de-unidade-Kotlin-C214\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\moise\OneDrive\Documentos\Projetos1S21\Calculadora\Teste-de-unidade-Kotlin-C214\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\moise\OneDrive\Documentos\Projetos1S21\Calculadora\Teste-de-unidade-Kotlin-C214\app\src\main\AndroidManifest.xml:2:1-21:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\081c5d5c69158c5ceb625a69fa336f82\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\edb51ab880b0e7ef949e432bc84df12d\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:gridlayout-v7:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-28.0.0.aar\d1b7c5b73cc79a8e492e6821a6251093\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\c8aeb2f86487591b393434c11ba67c9c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\e3389f53db6ca9417951ee5c26af0c66\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\60cb5ec8a5d5d0e0a502b43365e067b2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\54f861d84f570acf8d5e152307381345\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\84d91c0fb30ad16733016e8ba286eb79\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\5bf2443341b9ded938768c69d1a6c7ae\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\491d2f53b2313024ddf93c7d6a60984a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\4ec167917f3154930d1530aa63aeae9d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\e2dd80301149c5a15f4d65be7c467b92\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\94b2add6491a16a539fbb1b534bd6a9d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\38fba44abf3b2d880c4bee74954366b2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\06a30384d6b6fdf59982681c853fdec1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\373b302179d68ded09b83b5f37b5e3b3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\5690907100d3db4f9108b867fe21f7fc\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\3117e0719094461f76fe32bac083e676\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\1123a0b3c57445ab277ed7c75266c3c2\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\92dcb695e3206826fcb7d92b9dc68a92\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\51cd42559ff7ee6fd2d9c893a55690e9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\2519b298654be315a3ab4cf7fb9b9f3d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\1be3e2c06b59167727e406a3fc6bdab5\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\dace9832d6c5d697af90470d509d4ad4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\e166280fa073439a5732b3609e5142a1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\627943c4895d456008651b858db322a6\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\2b5e458aa896cf15cc002c57e9f42724\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\e6d0da957696ae0397feea83358768db\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\moise\OneDrive\Documentos\Projetos1S21\Calculadora\Teste-de-unidade-Kotlin-C214\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\moise\OneDrive\Documentos\Projetos1S21\Calculadora\Teste-de-unidade-Kotlin-C214\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\moise\OneDrive\Documentos\Projetos1S21\Calculadora\Teste-de-unidade-Kotlin-C214\app\src\main\AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from C:\Users\moise\OneDrive\Documentos\Projetos1S21\Calculadora\Teste-de-unidade-Kotlin-C214\app\src\main\AndroidManifest.xml:3:11-45
+		INJECTED from C:\Users\moise\OneDrive\Documentos\Projetos1S21\Calculadora\Teste-de-unidade-Kotlin-C214\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\moise\OneDrive\Documentos\Projetos1S21\Calculadora\Teste-de-unidade-Kotlin-C214\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\moise\OneDrive\Documentos\Projetos1S21\Calculadora\Teste-de-unidade-Kotlin-C214\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\moise\OneDrive\Documentos\Projetos1S21\Calculadora\Teste-de-unidade-Kotlin-C214\app\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from C:\Users\moise\OneDrive\Documentos\Projetos1S21\Calculadora\Teste-de-unidade-Kotlin-C214\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\moise\OneDrive\Documentos\Projetos1S21\Calculadora\Teste-de-unidade-Kotlin-C214\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\moise\OneDrive\Documentos\Projetos1S21\Calculadora\Teste-de-unidade-Kotlin-C214\app\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from C:\Users\moise\OneDrive\Documentos\Projetos1S21\Calculadora\Teste-de-unidade-Kotlin-C214\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\moise\OneDrive\Documentos\Projetos1S21\Calculadora\Teste-de-unidade-Kotlin-C214\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\moise\OneDrive\Documentos\Projetos1S21\Calculadora\Teste-de-unidade-Kotlin-C214\app\src\main\AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\edb51ab880b0e7ef949e432bc84df12d\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\edb51ab880b0e7ef949e432bc84df12d\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\5690907100d3db4f9108b867fe21f7fc\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\5690907100d3db4f9108b867fe21f7fc\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\3117e0719094461f76fe32bac083e676\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\3117e0719094461f76fe32bac083e676\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\5690907100d3db4f9108b867fe21f7fc\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\Users\moise\OneDrive\Documentos\Projetos1S21\Calculadora\Teste-de-unidade-Kotlin-C214\app\src\main\AndroidManifest.xml:10:13-39
+	android:label
+		ADDED from C:\Users\moise\OneDrive\Documentos\Projetos1S21\Calculadora\Teste-de-unidade-Kotlin-C214\app\src\main\AndroidManifest.xml:8:13-45
+	android:roundIcon
+		ADDED from C:\Users\moise\OneDrive\Documentos\Projetos1S21\Calculadora\Teste-de-unidade-Kotlin-C214\app\src\main\AndroidManifest.xml:9:13-58
+	android:icon
+		ADDED from C:\Users\moise\OneDrive\Documentos\Projetos1S21\Calculadora\Teste-de-unidade-Kotlin-C214\app\src\main\AndroidManifest.xml:7:13-47
+	android:allowBackup
+		ADDED from C:\Users\moise\OneDrive\Documentos\Projetos1S21\Calculadora\Teste-de-unidade-Kotlin-C214\app\src\main\AndroidManifest.xml:6:13-39
+	android:theme
+		ADDED from C:\Users\moise\OneDrive\Documentos\Projetos1S21\Calculadora\Teste-de-unidade-Kotlin-C214\app\src\main\AndroidManifest.xml:11:13-44
+activity#com.android.kcalculadora.MainActivity
+ADDED from C:\Users\moise\OneDrive\Documentos\Projetos1S21\Calculadora\Teste-de-unidade-Kotlin-C214\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from C:\Users\moise\OneDrive\Documentos\Projetos1S21\Calculadora\Teste-de-unidade-Kotlin-C214\app\src\main\AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\moise\OneDrive\Documentos\Projetos1S21\Calculadora\Teste-de-unidade-Kotlin-C214\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\moise\OneDrive\Documentos\Projetos1S21\Calculadora\Teste-de-unidade-Kotlin-C214\app\src\main\AndroidManifest.xml:14:17-68
+	android:name
+		ADDED from C:\Users\moise\OneDrive\Documentos\Projetos1S21\Calculadora\Teste-de-unidade-Kotlin-C214\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\moise\OneDrive\Documentos\Projetos1S21\Calculadora\Teste-de-unidade-Kotlin-C214\app\src\main\AndroidManifest.xml:16:17-76
+	android:name
+		ADDED from C:\Users\moise\OneDrive\Documentos\Projetos1S21\Calculadora\Teste-de-unidade-Kotlin-C214\app\src\main\AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from C:\Users\moise\OneDrive\Documentos\Projetos1S21\Calculadora\Teste-de-unidade-Kotlin-C214\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\moise\OneDrive\Documentos\Projetos1S21\Calculadora\Teste-de-unidade-Kotlin-C214\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\moise\OneDrive\Documentos\Projetos1S21\Calculadora\Teste-de-unidade-Kotlin-C214\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\081c5d5c69158c5ceb625a69fa336f82\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\081c5d5c69158c5ceb625a69fa336f82\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\edb51ab880b0e7ef949e432bc84df12d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\edb51ab880b0e7ef949e432bc84df12d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:gridlayout-v7:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-28.0.0.aar\d1b7c5b73cc79a8e492e6821a6251093\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:gridlayout-v7:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-28.0.0.aar\d1b7c5b73cc79a8e492e6821a6251093\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\c8aeb2f86487591b393434c11ba67c9c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\c8aeb2f86487591b393434c11ba67c9c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\e3389f53db6ca9417951ee5c26af0c66\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\e3389f53db6ca9417951ee5c26af0c66\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\60cb5ec8a5d5d0e0a502b43365e067b2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\60cb5ec8a5d5d0e0a502b43365e067b2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\54f861d84f570acf8d5e152307381345\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\54f861d84f570acf8d5e152307381345\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\84d91c0fb30ad16733016e8ba286eb79\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\84d91c0fb30ad16733016e8ba286eb79\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\5bf2443341b9ded938768c69d1a6c7ae\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\5bf2443341b9ded938768c69d1a6c7ae\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\491d2f53b2313024ddf93c7d6a60984a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\491d2f53b2313024ddf93c7d6a60984a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\4ec167917f3154930d1530aa63aeae9d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\4ec167917f3154930d1530aa63aeae9d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\e2dd80301149c5a15f4d65be7c467b92\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\e2dd80301149c5a15f4d65be7c467b92\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\94b2add6491a16a539fbb1b534bd6a9d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\94b2add6491a16a539fbb1b534bd6a9d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\38fba44abf3b2d880c4bee74954366b2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\38fba44abf3b2d880c4bee74954366b2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\06a30384d6b6fdf59982681c853fdec1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\06a30384d6b6fdf59982681c853fdec1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\373b302179d68ded09b83b5f37b5e3b3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\373b302179d68ded09b83b5f37b5e3b3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\5690907100d3db4f9108b867fe21f7fc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\5690907100d3db4f9108b867fe21f7fc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\3117e0719094461f76fe32bac083e676\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\3117e0719094461f76fe32bac083e676\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\1123a0b3c57445ab277ed7c75266c3c2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\1123a0b3c57445ab277ed7c75266c3c2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\92dcb695e3206826fcb7d92b9dc68a92\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\92dcb695e3206826fcb7d92b9dc68a92\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\51cd42559ff7ee6fd2d9c893a55690e9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\51cd42559ff7ee6fd2d9c893a55690e9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\2519b298654be315a3ab4cf7fb9b9f3d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\2519b298654be315a3ab4cf7fb9b9f3d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\1be3e2c06b59167727e406a3fc6bdab5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\1be3e2c06b59167727e406a3fc6bdab5\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\dace9832d6c5d697af90470d509d4ad4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\dace9832d6c5d697af90470d509d4ad4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\e166280fa073439a5732b3609e5142a1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\e166280fa073439a5732b3609e5142a1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\627943c4895d456008651b858db322a6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\627943c4895d456008651b858db322a6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\2b5e458aa896cf15cc002c57e9f42724\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\2b5e458aa896cf15cc002c57e9f42724\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\e6d0da957696ae0397feea83358768db\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\moise\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\e6d0da957696ae0397feea83358768db\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\moise\OneDrive\Documentos\Projetos1S21\Calculadora\Teste-de-unidade-Kotlin-C214\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\moise\OneDrive\Documentos\Projetos1S21\Calculadora\Teste-de-unidade-Kotlin-C214\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\moise\OneDrive\Documentos\Projetos1S21\Calculadora\Teste-de-unidade-Kotlin-C214\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\moise\OneDrive\Documentos\Projetos1S21\Calculadora\Teste-de-unidade-Kotlin-C214\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\moise\OneDrive\Documentos\Projetos1S21\Calculadora\Teste-de-unidade-Kotlin-C214\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\moise\OneDrive\Documentos\Projetos1S21\Calculadora\Teste-de-unidade-Kotlin-C214\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\moise\OneDrive\Documentos\Projetos1S21\Calculadora\Teste-de-unidade-Kotlin-C214\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\moise\OneDrive\Documentos\Projetos1S21\Calculadora\Teste-de-unidade-Kotlin-C214\app\src\main\AndroidManifest.xml
