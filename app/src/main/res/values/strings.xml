@@ -1,5 +1,3 @@
 <resources>
-    <string name="app_name">Calculadora</string>
-    <string name="history_field">Histórico</string>
-    <string name="bt_clean_history">Limpar Histórico</string>
+    <string name="app_name">KCalculadora</string>
 </resources>
