@@ -23,15 +23,14 @@ class Calculadora() {
         return i / i1
     }
 
-    fun bhaskara(a: Int, b: Int, c: Int): Boolean {
+    fun bhaskara(a: Int, b: Int, c: Int): Any {
         val delta = ((b * b) - (4 * a * c))
         val x1 = (-b + sqrt(delta.toDouble())) / (2 * a)
         val x2 = (-b - sqrt(delta.toDouble())) / (2 * a)
-        if (delta > 0) {
-           return true
-        }
-        else {
-            return false
+        return if (delta < 0) {
+            false
+        } else {
+            mutableListOf(x1, x2)
         }
         //return mutableListOf(x1, x2)
     }

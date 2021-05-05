@@ -45,10 +45,17 @@ class CalculadoraTest {
     }
 
     @Test
+    fun deltaTest() {
+        var calc = Calculadora()
+        val res = calc.bhaskara(2, 0, 6)
+        assertFalse(res as Boolean)
+    }
+
+    @Test
     fun bhaskTest() {
         var calc = Calculadora()
         val res = calc.bhaskara(2, 8, 6)
-        assertTrue(res)
+        assertNotEquals(5, res)
     }
 
 }
